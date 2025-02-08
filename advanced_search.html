@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google Advanced Search</title>
+        <link rel="stylesheet" href="google.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a href="index.html" title="Go to Google Home" ><img id="advanced-logo" src="google_PNG19644.png"></a>
+        <nav>
+            <ul>
+                <li><a href="index.html" title="Go to Google Home">Home</a></li>
+            </ul>
+        </nav>
+        <div id="advanced-heading"> 
+            <label>Advanced Search</label>
+        </div>
+        <section id="content">
+            <form action="https://www.google.com/search">
+                <div id="advanced-container">
+                    <div><span>Find pages with...</span></div>
+                    <div class="advanced-field"> 
+                        <label for="as_q">all these words:</label>
+                        <input class="as-textinput" value="" autofocus="autofocus" id="as_q" name="as_q" type="text"> 
+                    </div>
+                    <div class="advanced-field"> 
+                        <label for="as_epq">this exact word or phrase:</label>
+                        <input class="as-textinput" value="" id="as_epq" name="as_epq" type="text">   
+                    </div> 
+                    <div class="advanced-field"> 
+                        <label for="as_oq">any of these words:</label>
+                        <input class="as-textinput" value="" id="as_oq" name="as_oq" type="text"> 
+                    </div> 
+                    <div class="advanced-field"> 
+                        <label for="as_eq">none of these words:</label>    
+                        <input class="as-textinput" value="" id="as_eq" name="as_eq" type="text"> 
+                    </div> 
+                    <div class="advanced-field"> 
+                        <label for="as_nlo">numbers ranging from:</label>
+                        <div class="range-inputs">
+                            <input class="as-textinput" id="as_nlo" name="as_nlo" type="text">
+                            <span id="to-text">to</span>
+                            <input class="as-textinput" id="as_nhi" name="as_nhi" type="text">
+                        </div>
+                    </div> 
+                    <div class="button-container">
+                        <input id="advanced-button" alt="Advanced search button" type="submit" value="Advanced Search">
+                    </div>
+                </div>
+            </div>
+
+            </form>
+        </section>  
+    </body>
+</html>
